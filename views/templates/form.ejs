@@ -1,0 +1,63 @@
+<div id="cardsContainer" class="container d-flex justify-content-center align-items-center">
+    <div class="card  p-5 w-50" style="background: rgb(0, 0, 0, 0.2);">
+
+        <form id="form" class="needs-validation" novalidate>
+
+            <div class="mb-3">
+              <label for="name" class="form-label">Nombre</label>
+              <input type="text" class="form-control" id="name" placeholder="Ingrese el nombre" name="titulo" required>
+              <div class="valid-feedback">
+                ¡Se ve bien!
+              </div>
+              <div class="invalid-feedback">
+                Por favor, ingrese un nombre.
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="gender" class="form-label">Género</label>
+              <select class="form-select" id="gender" 
+                aria-label="Seleccione el género" 
+                name="genero" valuedefault="" required>
+                <option selected disabled value="">Seleccione el género</option>
+                <option value="Macho">Macho</option>
+                <option value="Hembra">Hembra</option>
+              </select>
+              <div class="valid-feedback">
+                ¡Se ve bien!
+              </div>
+              <div class="invalid-feedback">
+                Por favor, seleccione un género.
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="description" class="form-label">Descripción</label>
+              <textarea class="form-control" id="description" rows="3" placeholder="Ingrese la descripción" name="contenido" required></textarea>
+              <div class="valid-feedback">
+                ¡Se ve bien!
+              </div>
+              <div class="invalid-feedback">
+                Por favor, ingrese una descripción.
+              </div>
+            </div>
+    
+            <div class="mb-3">
+              <label for="image" class="form-label">URL de la Imagen</label>
+              <input type="url" class="form-control" id="image" placeholder="Ingrese la URL de la imagen" name="imagen" required>
+              <div class="valid-feedback">
+                ¡Se ve bien!
+              </div>
+              <div class="invalid-feedback">
+                Por favor, ingrese una URL válida.
+              </div>
+            </div>
+    
+            <div class="d-flex justify-content-center">
+              <button type="submit" class="btn mt-3" style="background-color: rgb(0, 0, 0, 0.4);">Agregar</button>
+            </div>
+    
+          </form>
+
+    </div>
+  </div>

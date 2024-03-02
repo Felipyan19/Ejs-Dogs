@@ -1,0 +1,17 @@
+<%- include('templates/head'); %>
+
+<body>
+    <div class="container-fluid m-0 p-0 w-100 h-100">
+
+        <%- include('templates/navbar',{ title: 'Home' }); %>
+        <%- include('templates/carrousel'); %>
+
+        <div id="cardsContainer" class="container"></div>
+
+    </div>
+    <%- include('templates/footer'); %>
+
+    <script src="/js/home.js"></script>
+    
+    <link rel="stylesheet" href="/css/home.css">
+</body>

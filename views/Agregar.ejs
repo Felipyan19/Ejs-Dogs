@@ -1,0 +1,16 @@
+<%- include('templates/head'); %>
+
+<body>
+    <div class="container-fluid m-0 p-0 w-100 h-100">
+        <%- include('templates/navbar', { title: 'Agregar' }); %>
+
+        <%- include('templates/title', { title: 'Agregar' }); %>
+
+        <%- include('templates/form'); %>
+    </div>
+    <%- include('templates/footer'); %>
+
+    <%- include('templates/modal'); %>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="/js/agregar.js"></script>
+</body>
